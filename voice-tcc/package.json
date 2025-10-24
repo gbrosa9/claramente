@@ -1,0 +1,10 @@
+{
+  "name": "voice-tcc",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["client","server"],
+  "scripts": {
+    "dev": "pnpm --parallel --filter server dev --filter client dev",
+    "install-all": "pnpm -w i"
+  }
+}
